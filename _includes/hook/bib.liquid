@@ -1,0 +1,44 @@
+{%- comment -%}
+  Site-local hook. al_folio_core's bib layout includes this file (if it exists)
+  just before printing an entry's venue line, so it can rewrite `entrytype`.
+
+  It formats the @unpublished conference entries in _bibliography/presentations.bib,
+  which the layout would otherwise print with an empty venue line:
+    <em>Meeting</em>, Venue, Mon YYYY · Poster · (award icon) Award
+
+  Notes: jekyll-scholar lets a bib `type` field (poster, oral, ...) overwrite
+  entry.type, so entries are detected by their `eventtitle` instead. Empty checks
+  use != '' because Liquid 4's `blank` is unreliable on plain strings.
+{%- endcomment -%}
+{%- if entry.eventtitle and entry.eventtitle != '' -%}
+  {%- assign hook_event = entry.eventtitle | regex_replace: '^[Tt]he ', '' -%}
+  {%- assign hook_months = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec' | split: ',' -%}
+  {%- assign hook_when = entry.year -%}
+  {%- if entry.eventdate and entry.eventdate != '' -%}
+    {%- assign hook_date = entry.eventdate | split: '/' | first | split: '-' -%}
+    {%- assign hook_when = hook_date[0] -%}
+    {%- if hook_date.size > 1 -%}
+      {%- assign hook_month_index = hook_date[1] | plus: 0 | minus: 1 -%}
+      {%- assign hook_when = hook_months[hook_month_index] | append: ' ' | append: hook_date[0] -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- assign hook_kind = '' -%}
+  {%- if entry.type != 'unpublished' -%}
+    {%- assign hook_kind = entry.type | capitalize -%}
+    {%- if entry.number and entry.number != '' -%}
+      {%- assign hook_kind = hook_kind | append: ' ' | append: entry.number -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- capture entrytype -%}
+    <em>{{ hook_event }}</em>
+    {%- if entry.venue and entry.venue != '' %}, {{ entry.venue }}{% endif -%}
+    {%- if hook_when != '' %}, {{ hook_when }}{% endif -%}
+    {%- if hook_kind != '' %} &middot; {{ hook_kind }}{% endif -%}
+    {%- if entry.addendum and entry.addendum != '' %}
+      &middot; <i class="fa-solid fa-award"></i> {{ entry.addendum -}}
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- comment -%} The date is already in the line above, so stop the layout appending the year again. {%- endcomment -%}
+  {%- assign entrymonth = '' -%}
+  {%- assign entryyear = '' -%}
+{%- endif -%}

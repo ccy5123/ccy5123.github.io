@@ -1,0 +1,9 @@
+github_users:
+  - ccy5123
+
+repo_description_lines_max: 2
+
+github_repos:
+  - ccy5123/pfas-rice-model
+  - ccy5123/sci-adk
+  - ccy5123/MAFIS

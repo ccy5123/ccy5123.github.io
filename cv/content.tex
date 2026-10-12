@@ -1,0 +1,267 @@
+%-------------------------
+% Content shared by resume.tex and cv.tex.
+% Edit positions, education, software and honors here; publications and
+% presentations come from ../_bibliography/*.bib (the website's files).
+% \iffullcv ... \else ... \fi marks the parts that differ between the two:
+% the resume keeps its one-page layout, the full CV adds everything else.
+%-------------------------
+
+% Open-source software, placed differently in the resume and the full CV
+\newcommand{\cvsoftware}{%
+\section{Open-Source Software}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{PFAS--rice uptake model} $|$ \emph{Python, HYDRUS-1D, Streamlit}}{\href{https://github.com/ccy5123/pfas-rice-model}{\underline{github.com/ccy5123/pfas-rice-model}}}
+          \resumeItemListStart
+            \resumeItem{Mechanistic four-compartment (root--stem--leaf--grain) uptake model for anionic PFAS in paddy rice, covering 12 calibrated PFCA/PFSA congeners}
+            \resumeItem{Coupled to HYDRUS-1D soil transport; parameterisable from chemical structure; interactive web application}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{sci-adk} $|$ \emph{Python, Claude Code}}{\href{https://github.com/ccy5123/sci-adk}{\underline{github.com/ccy5123/sci-adk}}}
+          \resumeItemListStart
+            \resumeItem{Verification kit for agent-assisted research: AI agents propose, and a deterministic engine judges each claim against decision rules frozen before the experiment}
+            \resumeItem{Append-only evidence record with headless re-verification by third parties and tamper-evident provenance}
+          \resumeItemListEnd
+      \iffullcv
+      \resumeProjectHeading
+          {\textbf{MAFIS} $|$ \emph{Python, Ollama}}{\href{https://github.com/ccy5123/MAFIS}{\underline{github.com/ccy5123/MAFIS}}}
+          \resumeItemListStart
+            \resumeItem{Local-first multi-agent AI research assistant for long-term value investing: a six-agent crew (Economist, Analyst, Valuer, Skeptic, Defender, Steward) writes fully cited equity research reports from local LLMs and Python-computed financial facts}
+            \resumeItem{Supports US and Korean equities; 475 unit tests}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{KorJpnIme} $|$ \emph{C++, Python, Windows TSF}}{}
+          \resumeItemListStart
+            \resumeItem{Windows TSF input method for typing Japanese on a Korean 2-beolsik keyboard, with full compound-vowel and final-consonant handling}
+            \resumeItem{Mozc OSS dictionary (about 1.29M entries) with Viterbi-based top-K kanji segmentation}
+          \resumeItemListEnd
+      \fi
+    \resumeSubHeadingListEnd
+}
+
+% Small sub-heading inside a section (full CV)
+\newcommand{\cvsubhead}[1]{\vspace{3pt}{\small\textit{#1}}\vspace{-2pt}}
+
+\begin{document}
+\iffullcv\fancyfoot[C]{\small\thepage}\fi % page numbers on the multi-page CV only
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Chan Young Joe} \\ \vspace{1pt}
+    \small \href{mailto:cy.joe@ehrnc.com}{\underline{cy.joe@ehrnc.com}} $|$
+    \iffullcv\href{mailto:ccy5123ccy@gmail.com}{\underline{ccy5123ccy@gmail.com}} $|$\fi
+    \href{https://orcid.org/0009-0007-5822-6714}{\underline{ORCID 0009-0007-5822-6714}} $|$
+    \href{https://github.com/ccy5123}{\underline{github.com/ccy5123}}
+    \iffullcv
+    \\ \href{https://www.linkedin.com/in/cyjoex}{\underline{linkedin.com/in/cyjoex}} $|$
+    \href{https://www.instagram.com/cyjoex}{\underline{instagram.com/cyjoex}} $|$
+    \href{https://www.facebook.com/chanyoung.joe}{\underline{facebook.com/chanyoung.joe}} $|$
+    Incheon, Korea
+    \fi
+\end{center}
+
+%-----------PROFILE-----------
+\iffullcv
+\section{Profile}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItem{Researcher specializing in computational chemistry, molecular dynamics, and AI-driven chemical modeling, with growing expertise in environmental risk assessment and bioaccumulation modeling. Strong foundations in quantum chemistry, statistical data analysis, and large language model applications in chemistry. Currently applies computational and data-science methods to environmental health research in industry while continuing academic collaborations.}
+ \end{itemize}
+\fi
+
+%-----------CURRENT POSITION-----------
+\section{Current Position}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Researcher, Data Science Team}{Jan. 2026 -- Present}
+      {Research Institute of Environmental Health and Safety, EH R\&C Co.}{Incheon, Korea}
+      \iffullcv
+      \resumeItemListStart
+        \resumeItem{Develops a flux-based dynamic energy budget--toxicokinetic (DEB-TK) model of fish bioaccumulation}
+        \resumeItem{Tests regulatory bioaccumulation screening against EU Biocidal Products Regulation assessments}
+        \resumeItem{Builds mechanistic uptake models for PFAS in fish gut and paddy rice}
+        \resumeItem{KEITI project on safety management of household chemical products (collaborative research since Apr. 2025)}
+      \resumeItemListEnd
+      \fi
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Seoul}{Seoul, Korea}
+      {M.S. in Applied Chemistry (Computational Chemistry), advisor Prof. Rakwoo Chang}{Sep. 2024 -- Feb. 2026}
+      \iffullcv
+      \resumeItemListStart
+        \resumeItem{Thesis: \emph{Applications of Artificial Intelligence for Solving Chemical Problems}}
+        \resumeItem{GPA 4.46/4.5}
+      \resumeItemListEnd
+      \fi
+    \resumeSubheading
+      {University of Seoul}{Seoul, Korea}
+      {B.S. in Applied Chemistry and Artificial Intelligence (double major), cum laude}{Mar. 2021 -- Aug. 2024}
+      \iffullcv
+      \resumeItemListStart
+        \resumeItem{Early graduation; GPA 4.37/4.5 (cumulative 4.28)}
+      \resumeItemListEnd
+      \fi
+    \resumeSubheading
+      {National Institute for Lifelong Education (@Korea University)}{Seoul, Korea}
+      {B.S. coursework in Mathematics (in progress)}{Jan. 2025 -- Present}
+    \iffullcv
+    \resumeSubheading
+      {Yangseo High School}{}
+      {High school diploma}{Mar. 2018 -- Feb. 2021}
+    \fi
+  \resumeSubHeadingListEnd
+
+%-----------ADDITIONAL TRAINING-----------
+\iffullcv
+\section{Additional Training}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Korea Environmental Conservation Institute (KECI)}{}
+      {Chemical Substance Safety Management Cooperation Course}{Sep. 2024 -- Feb. 2026}
+      \resumeItemListStart
+        \resumeItem{Track: Hazardous Substance Testing; funded by the Ministry of Climate, Energy and Environment, Republic of Korea; Certificate of Completion (Feb. 2026)}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\fi
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Researcher, Computational Molecular Modeling Laboratory}{Jun. 2021 -- Feb. 2026}
+      {University of Seoul (Prof. Rakwoo Chang)}{Seoul, Korea}
+      \resumeItemListStart
+        \resumeItem{Large language models (in-context learning, fine-tuning) for molecular property prediction}
+        \resumeItem{Molecular dynamics of membranes and enzymes; hybrid multigrained sampling}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Visiting Researcher, Department of Bioengineering}{Jun. 2024 -- Aug. 2024}
+      {Lehigh University (Prof. Wonpil Im)}{Bethlehem, PA, USA}
+      \iffullcv
+      \resumeItemListStart
+        \resumeItem{Short-term research stay supported by Prof. Rakwoo Chang (University of Seoul)}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Research Intern}{Jul. 2023 -- Feb. 2024}
+      {Molcube Corporation (CEO Wonpil Im)}{}
+      \resumeItemListStart
+        \resumeItem{Molecular dynamics simulation system development, bug reporting, and troubleshooting}
+      \resumeItemListEnd
+      \fi
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH PROJECTS-----------
+\iffullcv
+\section{Research Projects}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItem{Bioaccumulation and human-exposure prediction of hazardous substances considering the natural environment and food chain (with EH R\&C) \cvright{\textit{Apr. 2025 -- Present}}}
+    \resumeItem{LoRA-based LLM flash-point prediction model for chemical safety (with Prof. Jaeyoung Sung, Chung-Ang University) \cvright{\textit{Nov. 2024 -- Present}}}
+    \resumeItem{Hybrid sampling molecular dynamics method for systems with complex energy landscapes \cvright{\textit{Jun. 2024 -- Present}}}
+    \resumeItem{Quantum algorithms for chemical simulation (with Prof. Doyeol Ahn, University of Seoul) \cvright{\textit{Apr. 2024 -- Aug. 2024}}}
+    \resumeItem{CO and O$_2$ desolvation pathway analysis of the Ch-CODH enzyme by molecular dynamics (with Prof. Yonghwan Kim, UNIST) \cvright{\textit{Mar. 2023 -- Mar. 2024}}}
+    \resumeItem{AI--chemistry convergence research: LLM fine-tuning and in-context learning for chemical property prediction; MD-based phospholipid bilayer property prediction (with Prof. Kyungwoo Song, Yonsei University) \cvright{\textit{Mar. 2022 -- Present}}}
+    \resumeItem{Molecular dynamics simulation of chlorosulfolipid-based cell membranes \cvright{\textit{Jun. 2021 -- Dec. 2021}}}
+ \end{itemize}
+\fi
+
+%-----------PUBLICATIONS-----------
+\nocite{*}
+\iffullcv
+  \section{Publications}
+  \cvsubhead{Peer-reviewed}
+  \printbibliography[heading=none, env=cvpubs, filter=publications]
+  \cvsubhead{Preprints}
+  \printbibliography[heading=none, env=cvpubs, filter=preprints]
+\else
+  % Resume: entries marked selected = {true}
+  \section{Selected Publications}
+  \printbibliography[heading=none, env=cvpubs, filter=selectedpublications]
+\fi
+
+\iffullcv\else\cvsoftware\fi
+
+%-----------PRESENTATIONS-----------
+\iffullcv
+  \section{Conference Presentations}
+  \printbibliography[heading=none, env=cvpubs, filter=presentations]
+\else
+  \section{Selected Presentations}
+  \printbibliography[heading=none, env=cvpubs, filter=selectedpresentations]
+\fi
+{\footnotesize \hspace{0.15in}$^{*}$Corresponding author}
+
+%-----------HONORS-----------
+\section{\iffullcv Honors and Awards\else Honors\fi}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItem{Best Poster Award, 2026 Spring General Meeting of the Korean Society of Environmental Health \hfill 2026}
+    \resumeItem{Outstanding Paper Award, President of the University of Seoul (\textit{J. Comput. Chem.} paper) \hfill 2026}
+    \resumeItem{Best Poster Award, System Chemistry Global Leading Research Center Winter Symposium \hfill 2025}
+    \resumeItem{Best Poster Award, Fall Meeting of the Korean Society of Environmental Toxicology \& Chemistry \hfill 2024}
+    \resumeItem{Outstanding Graduate Award, College of Natural Sciences, University of Seoul \hfill 2024}
+    \iffullcv
+    \resumeItem{Academic Excellence Award, every semester, University of Seoul \cvright{2022 -- 2024}}
+    \resumeItem{Encouragement Award (3rd), UOS Chemical Safety Management Graduate Program \cvright{2023}}
+    \resumeItem{Excellence Presentation Award, University President Prize (1st), UOS Chemical Safety Management Graduate Program \cvright{2022}}
+    \fi
+ \end{itemize}
+
+\iffullcv
+%-----------SCHOLARSHIPS-----------
+\section{Scholarships}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItem{AI SeoulTech Graduate Scholarship \cvright{Fall 2025}}
+    \resumeItem{Seoul Mayor Scholarship \cvright{Spring 2022, Spring 2024}}
+    \resumeItem{Dean's Scholarship \cvright{Fall 2023}}
+    \resumeItem{Samsung Donor Scholarship \cvright{Spring 2023, Fall 2023}}
+    \resumeItem{Student Leader Scholarship \cvright{Spring 2022, Fall 2022}}
+    \resumeItem{Industry-University Cooperation Foundation Scholarship \cvright{Fall 2021, Spring 2022, Fall 2022}}
+    \resumeItem{Academic Excellence Scholarship \cvright{Fall 2021, Fall 2022}}
+    \resumeItem{Seoul Hope Scholarship \cvright{Spring 2022}}
+ \end{itemize}
+
+\cvsoftware
+
+%-----------TEACHING-----------
+\section{Teaching Experience}
+ \cvsubhead{University of Seoul, Department of Applied Chemistry}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItem{Teaching Assistant, \emph{Chemistry and Computer} \cvright{Fall 2025}}
+    \resumeItem{Teaching Assistant, \emph{Chemistry and Experiment I} (2 sections) and \emph{Physical Chemistry I} \cvright{Spring 2025}}
+    \resumeItem{Teaching Assistant, \emph{Chemistry and Experiment II} and \emph{Chemistry and Computer} \cvright{Fall 2024}}
+    \resumeItem{Teaching Assistant, \emph{Physical Chemistry I} \cvright{Spring 2023}}
+    \resumeItem{Tutor, \emph{General Chemistry} \cvright{Fall 2024, Spring 2025}}
+ \end{itemize}
+
+%-----------LEADERSHIP-----------
+\section{Leadership and Activities}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItem{Co-Founder and Vice President, Korean Traditional Archery Club, University of Seoul \cvright{Mar. 2022 -- Aug. 2024}}
+    \resumeItem{Founding President, Student Government, Department of Applied Chemistry, University of Seoul \cvright{Jan. 2022 -- Dec. 2022}}
+ \end{itemize}
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItem{\textbf{Computational chemistry and MD:} CHARMM, NAMD, GROMACS, OpenMM}
+    \resumeItem{\textbf{Programming:} Python, Fortran, C++, UNIX/HPC (SLURM)}
+    \resumeItem{\textbf{Machine learning:} PyTorch, TensorFlow, scikit-learn, Hugging Face; LLM fine-tuning (LoRA) and in-context learning; local LLM deployment (Ollama); retrieval-augmented generation (RAG)}
+    \resumeItem{\textbf{AI-augmented engineering:} agentic systems and harnesses around LLMs (context engineering, tool orchestration, evaluation and audit loops, reproducibility scaffolding); routine development with AI coding agents (Claude Code) under structured review and test-driven workflows}
+    \resumeItem{\textbf{Statistical data analysis:} exploratory data analysis, regression modeling, performance evaluation}
+    \resumeItem{\textbf{Languages:} Korean (native), English (working proficiency), Japanese (working knowledge)}
+ \end{itemize}
+
+%-----------CERTIFICATES-----------
+\section{Certificates and Licenses}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \resumeItem{Amateur Radio Operator License, 1st Class}
+    \resumeItem{Unmanned Power Flight Vehicle Operator Certificate, 4th Class}
+    \resumeItem{Hunting License, 1st Class (shotgun and airgun)}
+    \resumeItem{Driver's Licenses: 1st Class Large; 1st Class Ordinary (manual); 2nd Class Small (motorcycle over 125\,cc); 1st Class Special (large trailer, wrecker)}
+ \end{itemize}
+\fi
+
+%-------------------------------------------
+\end{document}

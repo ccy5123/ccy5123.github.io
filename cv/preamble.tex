@@ -1,0 +1,145 @@
+%-------------------------
+% Shared preamble for resume.tex and cv.tex
+% Template: Jake's Resume, MIT licensed, https://github.com/jakegut/resume
+% Based off of: https://github.com/sb2nov/resume
+%------------------------
+
+% \iffullcv switches content.tex between the full CV (true) and the resume (false)
+\newif\iffullcv
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%-------------------------
+% Bibliography: ACS-style entries from the website's bib files (one source for
+% the site, the CV and the resume). Paths are relative to this cv/ folder.
+\usepackage[backend=biber, style=chem-acs, articletitle=true, doi=true, url=false,
+            maxnames=99, sorting=none, eventdate=comp, defernumbers=true]{biblatex}
+\addbibresource{../_bibliography/publications.bib}
+\addbibresource{../_bibliography/presentations.bib}
+\DeclareSourcemap{\maps[datatype=bibtex]{%
+  % Print the abbreviated journal name (shortjournal) when the entry has one
+  \map[overwrite]{%
+    \step[fieldsource=shortjournal]\step[fieldset=journaltitle, origfieldval]}%
+  % Tag every entry from presentations.bib with the keyword "presentation"
+  % (appended, so any keywords already in the entry are kept)
+  \map[overwrite]{\perdatasource{../_bibliography/presentations.bib}%
+    \step[fieldset=keywords, fieldvalue={,}, appendstrict]%
+    \step[fieldset=keywords, fieldvalue=presentation, append]}%
+  % Entries with selected = {true} (the same flag the website uses for its home
+  % page) get the keyword "selected"; the resume prints only those
+  \map[overwrite]{%
+    \step[fieldsource=selected, match=\regexp{\A\s*true\s*\Z}, final]%
+    \step[fieldset=keywords, fieldvalue={,}, appendstrict]%
+    \step[fieldset=keywords, fieldvalue=selected, append]}%
+}}
+\defbibfilter{publications}{not keyword=presentation and not keyword=preprint}
+\defbibfilter{preprints}{keyword=preprint}
+\defbibfilter{presentations}{keyword=presentation}
+\defbibfilter{selectedpublications}{not keyword=presentation and keyword=selected}
+\defbibfilter{selectedpresentations}{keyword=presentation and keyword=selected}
+% Meeting presentations (@unpublished), ACS format:
+%   Authors. Title. Presented at Meeting, Venue, Date; type number. Award.
+\DeclareBibliographyDriver{unpublished}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/translator+others}%
+  \setunit{\labelnamepunct}\newblock
+  \usebibmacro{title}%
+  \setunit{\adddot\space}\newblock
+  \iffieldundef{eventtitle}{}{\printtext{Presented at}\setunit{\addspace}}%
+  \printfield{eventtitle}%
+  \setunit{\addcomma\space}%
+  \printfield{venue}%
+  \setunit{\addcomma\space}%
+  \printeventdate
+  \setunit{\addsemicolon\space}%
+  \printfield{type}%
+  \setunit{\addspace}%
+  \printfield{number}%
+  \setunit{\adddot\space}\newblock
+  \usebibmacro{addendum+pubstate}%
+  \usebibmacro{finentry}}
+% Bold the author marked with author+an = {N=highlight} in the .bib file,
+% and add * after authors marked "corresponding" (e.g. {2=highlight,corresponding})
+\renewcommand*{\mkbibnamegiven}[1]{\ifitemannotation{highlight}{\textbf{#1}}{#1}}
+\renewcommand*{\mkbibnamefamily}[1]{\ifitemannotation{highlight}{\textbf{#1}}{#1}}
+\renewcommand*{\mkbibcompletename}[1]{#1\ifitemannotation{corresponding}{\textsuperscript{*}}{}}
+% Unnumbered list matching the other CV sections
+\defbibenvironment{cvpubs}
+  {\begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt]\small}
+  {\end{itemize}}
+  {\item}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% Right-aligned trailer (date) that never splits: if it does not fit on the
+% last line it moves, whole and still right-aligned, to a new line (TeXbook trick)
+\newcommand{\cvright}[1]{\unskip\nobreak\hfill\penalty50\hskip1em\hbox{}\nobreak\hfill\mbox{#1}}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
