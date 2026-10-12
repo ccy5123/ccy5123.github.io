@@ -6,9 +6,8 @@ subtitle: Researcher, Data Science Team · Research Institute of Environmental H
 
 profile:
   align: right
-  # To show a photo: put it at assets/img/prof_pic.jpg and uncomment the next two lines.
-  # image: prof_pic.jpg
-  # image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Data Science Team</p>
     <p>EH R&amp;C Co.</p>
@@ -31,6 +30,39 @@ I am a researcher in the Data Science Team at the Research Institute of Environm
 My main project is a flux-based dynamic energy budget–toxicokinetic (DEB-TK) framework for fish bioaccumulation, which describes uptake at exchange organs such as gills and gut in terms of membrane permeability and couples it to growth. I also develop mechanistic uptake models for PFAS in fish and paddy rice, and test how bioaccumulation screening tools perform in regulatory assessments.
 
 Before joining EH R&C, I received my M.S. in Applied Chemistry (computational chemistry) from the University of Seoul with Prof. Rakwoo Chang, where I worked on large language models for chemistry (in-context learning and LoRA fine-tuning for molecular property prediction) and on molecular dynamics of membranes and enzymes, in collaboration with groups at Yonsei University, UNIST, and Chung-Ang University. I also hold a B.S. in Applied Chemistry and Artificial Intelligence from the University of Seoul, and spent the summer of 2024 as a visiting researcher with Prof. Wonpil Im at Lehigh University.
+
+## education
+
+- **M.S. in Applied Chemistry** (Computational Chemistry), University of Seoul, Sep. 2024 – Feb. 2026<br>
+  Advisor: Prof. Rakwoo Chang · Thesis: _Applications of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5
+- **B.S. in Applied Chemistry and Artificial Intelligence** (double major, cum laude), University of Seoul, Mar. 2021 – Aug. 2024<br>
+  Early graduation · Outstanding Graduate Award, College of Natural Sciences
+- **B.S. coursework in Mathematics** (in progress), National Institute for Lifelong Education, Jan. 2025 – present
+
+## experience
+
+- **Researcher**, Data Science Team, Research Institute of Environmental Health and Safety, EH R&C Co., Incheon, Jan. 2026 – present
+- **Researcher**, Computational Molecular Modeling Laboratory (Prof. Rakwoo Chang), University of Seoul, Jun. 2021 – Feb. 2026
+- **Visiting Researcher**, Department of Bioengineering (Prof. Wonpil Im), Lehigh University, Bethlehem, PA, USA, Jun. – Aug. 2024
+- **Research Intern**, Molcube Corporation, Jul. 2023 – Feb. 2024
+
+## research interests
+
+- Mechanistic toxicokinetics and bioaccumulation modeling (DEB-TK, PFAS uptake in fish and rice)
+- Chemical risk assessment and regulatory bioaccumulation screening
+- Large language models for chemistry (in-context learning, LoRA fine-tuning)
+- Molecular dynamics of membranes and enzymes; enhanced sampling
+
+## honors and awards
+
+- Best Poster Award, Korean Society of Environmental Health Spring Meeting, 2026
+- Outstanding Paper Award, President of the University of Seoul (_J. Comput. Chem._ paper), 2026
+- Best Poster Award, System Chemistry Global Leading Research Center Winter Symposium, 2025
+- Best Poster Award, Korean Society of Environmental Toxicology & Chemistry Fall Meeting, 2024
+- Outstanding Graduate Award, College of Natural Sciences, University of Seoul, 2024
+- Academic Excellence Award, every semester, University of Seoul, 2022 – 2024
+
+A full list, including scholarships and conference presentations, is in the [CV]({{ '/cv/' | relative_url }}).
 
 ## miscellaneous
 

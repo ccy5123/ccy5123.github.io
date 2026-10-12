@@ -2,14 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching assistant and tutoring experience.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+### University of Seoul, Department of Applied Chemistry
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+- **Teaching Assistant**, _Chemistry and Computer_, Fall 2025
+- **Teaching Assistant**, _Chemistry and Experiment I_ (2 sections) and _Physical Chemistry I_, Spring 2025
+- **Teaching Assistant**, _Chemistry and Experiment II_ and _Chemistry and Computer_, Fall 2024
+- **Teaching Assistant**, _Physical Chemistry I_, Spring 2023
+- **Tutor**, _General Chemistry_, Fall 2024 and Spring 2025
