@@ -35,7 +35,7 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - **M.S. in Applied Chemistry** (Computational Chemistry), University of Seoul <span class="cv-date">Sep. 2024 – Feb. 2026</span>
   <span class="cv-sub">Advisor: Prof. Rakwoo Chang · Thesis: _Applications of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5</span>
 - **B.S. in Applied Chemistry and Artificial Intelligence** (double major, cum laude, ranked 1st in the department), University of Seoul <span class="cv-date">Mar. 2021 – Aug. 2024</span>
-  <span class="cv-sub">Early graduation · Outstanding Graduate Award, College of Natural Sciences</span>
+  <span class="cv-sub">Latin honors at UOS are ranked across the College of Natural Sciences · Early graduation · Outstanding Graduate Award, College of Natural Sciences</span>
 - **B.S. coursework in Mathematics** (in progress), National Institute for Lifelong Education <span class="cv-date">Jan. 2025 – present</span>
 
 ## experience
