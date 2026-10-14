@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Journal articles, preprints, and conference presentations, most recent first.
+description: Journal articles and conference presentations, most recent first.
 nav: true
 nav_order: 1
 ---
@@ -24,6 +24,10 @@ nav_order: 1
 
 </div>
 
+{% capture preprint_count %}{% bibliography_count --query @*[keywords=preprint] %}{% endcapture %}
+{% assign preprint_count = preprint_count | strip | plus: 0 %}
+{% if preprint_count > 0 %}
+
 ## preprints
 
 <div class="publications">
@@ -31,6 +35,8 @@ nav_order: 1
 {% bibliography --query @*[keywords=preprint] %}
 
 </div>
+
+{% endif %}
 
 ## presentations
 

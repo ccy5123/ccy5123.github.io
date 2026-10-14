@@ -4,7 +4,8 @@
   Local override of al_folio_core 1.0.15 _layouts/bib.liquid. Changes:
   - authors flagged "corresponding" in the entry's biblatex `author+an` field
     (e.g. author+an = {1=highlight; 2=corresponding}) get a superscript *;
-  - the year is bold (the journal is already italic), as in the ACS-style CV.
+  - the year is bold (the journal is already italic), as in the ACS-style CV;
+  - a `preprint` field (DOI) adds a "Preprint" button next to DOI.
 {% endcomment %}
 {%- assign corresponding_positions = ',' -%}
 {%- assign author_annotation = entry['author+an'] | default: '' -%}
@@ -234,6 +235,9 @@
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+      {% endif %}
+      {% if entry.preprint %}
+        <a href="https://doi.org/{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>

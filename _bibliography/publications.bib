@@ -4,7 +4,11 @@
 %   author+an = {N=highlight}   CV/resume: bold the N-th author (your own name);
 %                               add "corresponding" for a * mark, e.g.
 %                               {1=highlight; 2=corresponding}
-%   keywords = {preprint}       listed under Preprints (CV and website)
+%   keywords = {preprint}       listed under Preprints (CV and website; the section
+%                               only appears when such an entry exists)
+%   preprint = {DOI}            website only: "Preprint" button on a published paper
+%                               (once a preprint is published, drop its entry and
+%                               move its DOI here)
 %   selected = {true}           resume + website home page (the full CV lists all)
 %   abbr, bibtex_show           website only: venue badge, "Bib" button
 %   award, award_name           website only: award button and its text
@@ -20,6 +24,7 @@
   year         = {2026},
   pages        = {vgag253},
   doi          = {10.1093/etojnl/vgag253},
+  preprint     = {10.26434/chemrxiv.15002330/v1},
   abbr         = {ET\&C},
   selected     = {true},
   bibtex_show  = {true},
@@ -40,17 +45,5 @@
   award_name   = {Outstanding Paper Award},
   abbr         = {JCC},
   selected     = {true},
-  bibtex_show  = {true},
-}
-
-@article{Lee2026ChemRxiv,
-  author       = {Lee, Jong-Hyeon and Joe, Chan Young},
-  author+an    = {1=corresponding; 2=highlight},
-  title        = {A flux-based bioaccumulation model for growing organisms: integrating countercurrent gill exchange into dynamic energy budget theory},
-  journal      = {ChemRxiv},
-  year         = {2026},
-  doi          = {10.26434/chemrxiv.15002330/v1},
-  keywords     = {preprint},
-  abbr         = {ChemRxiv},
   bibtex_show  = {true},
 }

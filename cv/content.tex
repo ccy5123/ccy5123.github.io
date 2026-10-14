@@ -41,6 +41,9 @@
 
 % Small sub-heading inside a section (full CV)
 \newcommand{\cvsubhead}[1]{\vspace{3pt}{\small\textit{#1}}\vspace{-2pt}}
+% The same sub-heading as a biblatex heading: biblatex prints neither the heading
+% nor the list when a filtered bibliography is empty (e.g. no preprints).
+\defbibheading{cvsub}[]{\cvsubhead{#1}}
 
 \begin{document}
 \iffullcv\fancyfoot[C]{\small\thepage}\fi % page numbers on the multi-page CV only
@@ -174,8 +177,7 @@
   \section{Publications}
   \cvsubhead{Peer-reviewed}
   \printbibliography[heading=none, env=cvpubs, filter=publications]
-  \cvsubhead{Preprints}
-  \printbibliography[heading=none, env=cvpubs, filter=preprints]
+  \printbibliography[heading=cvsub, title={Preprints}, env=cvpubs, filter=preprints]
 \else
   % Resume: entries marked selected = {true}
   \section{Selected Publications}
