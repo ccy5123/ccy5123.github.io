@@ -4,6 +4,20 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - ccy5123/pfas-rice-model
+  - ccy5123/ccy5123.github.io
+  - ccy5123/paperforge
   - ccy5123/sci-adk
-  - ccy5123/MAFIS
+  - ccy5123/book2sim
+  - ccy5123/figtune
+  - ccy5123/pfas-rice-model
+  - ccy5123/tsdm
+  - ccy5123/pwd
+  - ccy5123/ballast
+  - ccy5123/hidden-asset-screener
+  - ccy5123/kor_based_jap
+  - ccy5123/mafis
+  - ccy5123/UOS_RL2025_bomberman_rl
+  - ccy5123/eval_icl
+  - ccy5123/chemrag
+  - ccy5123/hybrid-chemrag
+  - ccy5123/eval_icl_old

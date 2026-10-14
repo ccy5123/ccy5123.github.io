@@ -58,6 +58,9 @@ on:
       - "!docs/INSTALL.md"
       - "!README.md"
   workflow_dispatch:
+  schedule:
+    # Daily rebuild (03:00 KST) so newly created public repos show up on /software/.
+    - cron: "0 18 * * *"
 
 permissions:
   contents: write
@@ -86,6 +89,24 @@ jobs:
           cache: "npm"
       - name: Install JS deps 📦
         run: npm ci
+      - name: List public GitHub repos 📚
+        # /software/ shows every public repo of the site owner, most recently pushed first.
+        # Regenerated on each build, so the committed _data/repositories.yml is only a fallback.
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          {
+            echo "github_users:"
+            echo "  - $OWNER"
+            echo ""
+            echo "repo_description_lines_max: 2"
+            echo ""
+            echo "github_repos:"
+            gh repo list "$OWNER" --visibility public --limit 200 --json nameWithOwner,pushedAt \
+              --jq 'sort_by(.pushedAt) | reverse | .[] | "  - " + .nameWithOwner'
+          } > _data/repositories.yml
+          cat _data/repositories.yml
       - name: Build CV and resume PDFs 📄
         # cv/cv.tex (full CV) and cv/resume.tex read the same _bibliography/*.bib files as the
         # site, so every push republishes PDFs that match the publications page.

@@ -65,6 +65,17 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - Outstanding Graduate Award, College of Natural Sciences, University of Seoul <span class="cv-date">2024</span>
 - Academic Excellence Award, every semester, University of Seoul <span class="cv-date">2022 – 2024</span>
 
+## certificates and licenses
+
+{: .cv-rows}
+
+- **Chemical Substance Safety Management Cooperation Course**, Korea Environmental Conservation Institute (KECI) <span class="cv-date">Feb. 2026</span>
+  <span class="cv-sub">Certificate of Completion · Track: Hazardous Substance Testing · Funded by the Ministry of Climate, Energy and Environment</span>
+- **Amateur Radio Operator License**, 1st Class
+- **Unmanned Power Flight Vehicle (Drone) Operator Certificate**, 4th Class
+- **Hunting License**, 1st Class (shotgun and airgun)
+- **Driver's Licenses**: 1st Class Large; 1st Class Ordinary (manual); 2nd Class Small (motorcycle over 125 cc); 1st Class Special (large trailer, wrecker)
+
 A full list, including scholarships and conference presentations, is in the [CV]({{ '/cv/' | relative_url }}).
 
 ## miscellaneous

@@ -67,6 +67,13 @@ body {
 #navbar .nav-item.active .nav-link {
   color: var(--global-theme-color) !important;
 }
+// search button: show only the magnifier, not the "ctrl k" hint (the shortcut still works)
+#navbar #search-toggle .nav-link {
+  font-size: 0;
+}
+#navbar #search-toggle .nav-link i {
+  font-size: 1rem;
+}
 
 // ---------- page titles ----------
 .post-header .post-title {
