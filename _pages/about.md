@@ -74,11 +74,12 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - **Amateur Radio Operator License**, 1st Class
 - **Unmanned Power Flight Vehicle (Drone) Operator Certificate**, 4th Class
 - **Hunting License**, 1st Class (shotgun and airgun)
-- {: .license-row} **Driver's Licenses**: <span class="license-card" aria-label="Licensed vehicle categories, as on the back of the license"><span class="lc-row" title="Passenger cars"><span class="lc-icon"><i class="fa-solid fa-car-side"></i></span>All Vehicles</span><span class="lc-row" title="Vans and buses"><span class="lc-icon"><i class="fa-solid fa-van-shuttle"></i></span>All Vehicles</span><span class="lc-row" title="Trucks"><span class="lc-icon"><i class="fa-solid fa-truck"></i></span>All Vehicles</span><span class="lc-row" title="Special vehicles (trailers, wreckers)"><span class="lc-icon"><i class="fa-solid fa-trailer"></i><i class="fa-solid fa-truck"></i></span>All Vehicles</span><span class="lc-row" title="Motorcycles"><span class="lc-icon"><i class="fa-solid fa-motorcycle"></i></span>All Vehicles</span></span>
-  - 1st Class Large
-  - 1st Class Ordinary (manual)
-  - 2nd Class Small (motorcycle over 125 cc)
-  - 1st Class Special (large trailer, wrecker)
+- {: .license-row} **Driver's Licenses**:
+  - Ordinary (1st Class, manual) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-car-side"></i></span>All Vehicles</span>
+  - Large (1st Class) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-bus"></i></span>All Vehicles</span>
+  - Large Trailer (1st Class Special) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-truck"></i><i class="fa-solid fa-trailer"></i></span>All Vehicles</span>
+  - Wrecker (1st Class Special) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-truck"></i><i class="fa-solid fa-truck fa-flip-horizontal"></i></span>All Vehicles</span>
+  - Motorcycle (2nd Class Small, over 125 cc) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-motorcycle"></i></span>All Vehicles</span>
 
 A full list, including scholarships and conference presentations, is in the [CV]({{ '/cv/' | relative_url }}).
 
