@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 24" role="img" aria-label="Wrecker towing a truck">
+  <!-- tow truck on the right pulling a second truck on the left, joined by a tow bar -->
+  <path fill="#111" d="M1 6 H12.6 V15.5 H1 Z"/>
+  <path fill-rule="evenodd" fill="#111" d="M13.4 17 V9.6 Q13.4 8.4 14.6 8.4 H17 Q17.7 8.4 18.1 9 L20.6 12.6 Q21 13.2 21 13.9 V17 Z
+    M14.9 9.9 H16.8 L18.6 12.6 H14.9 Z"/>
+  <path fill="#111" d="M1 15.5 H21 V17.2 H1 Z"/>
+  <path fill="#111" d="M21 13.2 H24.4 V14.6 H21 Z"/>
+  <path fill="#111" d="M24.4 5 H35 V15.5 H24.4 Z"/>
+  <path fill-rule="evenodd" fill="#111" d="M35.8 17 V8.4 Q35.8 7 37.2 7 H40.8 Q41.6 7 42.1 7.7 L45.6 12.4 Q46 13 46 13.8 V17 Z
+    M37.6 9 H40.5 L42.9 12.4 H37.6 Z"/>
+  <path fill="#111" d="M24.4 15.5 H46 V17.2 H24.4 Z"/>
+  <path fill-rule="evenodd" fill="#111" d="M2.8 19.6 a2.7 2.7 0 1 0 5.4 0 a2.7 2.7 0 1 0 -5.4 0 Z M4.5 19.6 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0 Z"/>
+  <path fill-rule="evenodd" fill="#111" d="M14.4 19.6 a2.7 2.7 0 1 0 5.4 0 a2.7 2.7 0 1 0 -5.4 0 Z M16.1 19.6 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0 Z"/>
+  <path fill-rule="evenodd" fill="#111" d="M26.4 19.6 a2.7 2.7 0 1 0 5.4 0 a2.7 2.7 0 1 0 -5.4 0 Z M28.1 19.6 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0 Z"/>
+  <path fill-rule="evenodd" fill="#111" d="M37.8 19.6 a2.7 2.7 0 1 0 5.4 0 a2.7 2.7 0 1 0 -5.4 0 Z M39.5 19.6 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0 Z"/>
+</svg>
