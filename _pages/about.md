@@ -35,7 +35,7 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - **M.S. in Applied Chemistry** (Computational Chemistry), University of Seoul <span class="cv-date">Sep. 2024 – Feb. 2026</span>
   <span class="cv-sub">Advisor: Prof. Rakwoo Chang · Thesis: _Application of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5</span>
 - **B.S. in Applied Chemistry; B.Eng. in Artificial Intelligence** (double major, cum laude), University of Seoul <span class="cv-date">Mar. 2021 – Aug. 2024</span>
-  <span class="cv-sub">1st in the Department of Applied Chemistry; 2nd-highest cumulative GPA in the College of Natural Sciences (August 2024 graduates) · Early graduation · Outstanding Graduate Award, College of Natural Sciences</span>
+  <span class="cv-sub">1st in the Department of Applied Chemistry; 2nd-highest cumulative GPA in the College of Natural Sciences (August 2024 graduates) · Early graduation</span>
 - **B.S. coursework in Mathematics** (in progress), National Institute for Lifelong Education <span class="cv-date">Jan. 2025 – present</span>
 
 ## experience
@@ -62,9 +62,9 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - Outstanding Paper Award, President of the University of Seoul (_J. Comput. Chem._ paper) <span class="cv-date">2026</span>
 - Best Poster Award, System Chemistry Global Leading Research Center Winter Symposium <span class="cv-date">2025</span>
 - Best Poster Award, Korean Society of Environmental Toxicology & Chemistry Fall Meeting <span class="cv-date">2024</span>
-- Outstanding Graduate Award, College of Natural Sciences, University of Seoul <span class="cv-date">2024</span>
-- Academic Excellence Award, six consecutive semesters, University of Seoul <span class="cv-date">Fall 2021 – Spring 2024</span>
-  <span class="cv-sub">Awarded each semester to the student with the highest GPA in each class year and department</span>
+- President's Award, graduation with honors (cum laude), University of Seoul <span class="cv-date">2024</span>
+- Academic Excellence Award, every semester, University of Seoul <span class="cv-date">2021 – 2024</span>
+  <span class="cv-sub">Awarded each semester to the student with the highest GPA in each class year and department; the graduating semester is not eligible</span>
 
 ## certificates and licenses
 
