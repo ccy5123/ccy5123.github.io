@@ -64,7 +64,7 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - Best Poster Award, Korean Society of Environmental Toxicology & Chemistry Fall Meeting <span class="cv-date">2024</span>
 - President's Award, graduation with honors (cum laude), University of Seoul <span class="cv-date">2024</span>
 - Academic Excellence Award, every semester, University of Seoul <span class="cv-date">2021 – 2024</span>
-  <span class="cv-sub">Awarded each semester to the student with the highest GPA in each class year and department; the graduating semester is not eligible</span>
+  <span class="cv-sub">Awarded each semester to the student with the highest GPA in each class year and department</span>
 
 ## certificates and licenses
 
