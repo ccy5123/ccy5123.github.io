@@ -74,7 +74,11 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - **Amateur Radio Operator License**, 1st Class
 - **Unmanned Power Flight Vehicle (Drone) Operator Certificate**, 4th Class
 - **Hunting License**, 1st Class (shotgun and airgun)
-- **Driver's Licenses**: 1st Class Large; 1st Class Ordinary (manual); 2nd Class Small (motorcycle over 125 cc); 1st Class Special (large trailer, wrecker)
+- **Driver's Licenses**:
+  - 1st Class Large
+  - 1st Class Ordinary (manual)
+  - 2nd Class Small (motorcycle over 125 cc)
+  - 1st Class Special (large trailer, wrecker)
 
 A full list, including scholarships and conference presentations, is in the [CV]({{ '/cv/' | relative_url }}).
 
