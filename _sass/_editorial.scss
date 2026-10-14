@@ -183,9 +183,43 @@ ul.cv-rows ul {
 ul.cv-rows ul > li {
   margin-bottom: 0.15rem;
 }
+// driver's licenses: a card like the back of a Korean license, beside the class list
+ul.cv-rows > li.license-row {
+  padding-right: 0;
+  display: flow-root;
+}
+.license-card {
+  float: right;
+  display: block;
+  margin: 0 0 0.5rem 1.5rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background: var(--editorial-paper);
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.95;
+}
+.license-card .lc-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.license-card .lc-icon {
+  display: inline-flex;
+  justify-content: center;
+  gap: 0.15rem;
+  width: 2.6rem;
+  font-size: 1rem;
+}
 @media (max-width: 576px) {
   ul.cv-rows > li {
     padding-right: 0;
+  }
+  .license-card {
+    float: none;
+    width: fit-content;
+    margin: 0.4rem 0 0.4rem 0;
   }
   ul.cv-rows .cv-date {
     position: static;
