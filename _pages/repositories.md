@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /software/
-title: software
+title: Software
 description: Open-source research software.
 nav: true
 nav_order: 2

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Researcher, Data Science Team · Research Institute of Environmental Health and Safety, EH R&amp;C Co. · Incheon, Korea
 

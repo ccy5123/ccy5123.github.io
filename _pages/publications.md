@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Journal articles, preprints, and conference presentations, most recent first.
 nav: true
 nav_order: 1
