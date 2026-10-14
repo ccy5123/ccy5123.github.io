@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 24" role="img" aria-label="Bus">
+  <!-- side view of a bus: a row of windows, two wheels -->
+  <path fill-rule="evenodd" fill="#111" d="M2 18.5 V5.5 Q2 3 4.5 3 H43.5 Q46 3 46 5.5 V18.5 Z
+    M4.5 5.5 H10.5 V11.5 H4.5 Z
+    M12.5 5.5 H18.5 V11.5 H12.5 Z
+    M20.5 5.5 H26.5 V11.5 H20.5 Z
+    M28.5 5.5 H34.5 V11.5 H28.5 Z
+    M36.5 5.5 H43.5 V11.5 H36.5 Z
+    M3.5 13.5 H44.5 V14.6 H3.5 Z"/>
+  <path fill-rule="evenodd" fill="#111" d="M7.4 19 a4.3 4.3 0 1 0 8.6 0 a4.3 4.3 0 1 0 -8.6 0 Z M10.1 19 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0 Z"/>
+  <path fill-rule="evenodd" fill="#111" d="M32 19 a4.3 4.3 0 1 0 8.6 0 a4.3 4.3 0 1 0 -8.6 0 Z M34.7 19 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0 Z"/>
+</svg>

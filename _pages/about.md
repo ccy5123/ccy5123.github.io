@@ -75,11 +75,11 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - **Unmanned Power Flight Vehicle (Drone) Operator Certificate**, 4th Class
 - **Hunting License**, 1st Class (shotgun and airgun)
 - {: .license-row} **Driver's Licenses**:
-  - Ordinary (1st Class, manual) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-car-side"></i></span>All Vehicles</span>
-  - Large (1st Class) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-bus"></i></span>All Vehicles</span>
-  - Large Trailer (1st Class Special) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-truck"></i><i class="fa-solid fa-trailer"></i></span>All Vehicles</span>
-  - Wrecker (1st Class Special) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-truck"></i><i class="fa-solid fa-truck fa-flip-horizontal"></i></span>All Vehicles</span>
-  - Motorcycle (2nd Class Small, over 125 cc) <span class="lc"><span class="lc-icon"><i class="fa-solid fa-motorcycle"></i></span>All Vehicles</span>
+  - Ordinary (1st Class, manual) <span class="lc"><img src="{{ '/assets/img/vehicles/ordinary.svg' | relative_url }}" alt="">All Vehicles</span>
+  - Large (1st Class) <span class="lc"><img src="{{ '/assets/img/vehicles/large.svg' | relative_url }}" alt="">All Vehicles</span>
+  - Large Trailer (1st Class Special) <span class="lc"><img src="{{ '/assets/img/vehicles/large-trailer.svg' | relative_url }}" alt="">All Vehicles</span>
+  - Wrecker (1st Class Special) <span class="lc"><img src="{{ '/assets/img/vehicles/wrecker.svg' | relative_url }}" alt="">All Vehicles</span>
+  - Motorcycle (2nd Class Small, over 125 cc) <span class="lc"><img src="{{ '/assets/img/vehicles/motorcycle.svg' | relative_url }}" alt="">All Vehicles</span>
 
 A full list, including scholarships and conference presentations, is in the [CV]({{ '/cv/' | relative_url }}).
 

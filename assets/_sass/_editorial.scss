@@ -183,39 +183,65 @@ ul.cv-rows ul {
 ul.cv-rows ul > li {
   margin-bottom: 0.15rem;
 }
-// driver's licenses: each category with its pictogram and "All Vehicles" on the right,
-// like the back of a Korean license
+// driver's licenses: each category with its pictogram (assets/img/vehicles) and "All Vehicles"
+// in a white rounded panel on the right, like the back of a Korean license
+li.license-row > ul {
+  position: relative;
+  margin-top: 0.5rem !important;
+}
+li.license-row > ul::before {
+  content: "";
+  position: absolute;
+  top: -0.4rem;
+  bottom: -0.4rem;
+  right: 0;
+  width: 11.5rem;
+  background: #fff;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
 li.license-row > ul > li {
   position: relative;
-  padding-right: 10rem;
+  padding-right: 13rem;
+  min-height: 1.7rem;
 }
 li.license-row .lc {
   position: absolute;
   top: 0;
-  right: 0;
-  display: inline-flex;
+  right: 0.9rem;
+  z-index: 1;
+  display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.75rem;
+  height: 1.6rem;
   font-size: 0.85rem;
   font-weight: 700;
+  color: #111;
 }
-li.license-row .lc-icon {
-  display: inline-flex;
-  justify-content: center;
-  gap: 0.1rem;
-  width: 2.8rem;
-  font-size: 1rem;
+li.license-row .lc img {
+  display: block;
+  height: 1.45rem;
+  width: auto;
 }
 @media (max-width: 576px) {
   ul.cv-rows > li {
     padding-right: 0;
+  }
+  li.license-row > ul::before {
+    display: none;
   }
   li.license-row > ul > li {
     padding-right: 0;
   }
   li.license-row .lc {
     position: static;
-    display: flex;
+    width: fit-content;
+    margin: 0.15rem 0 0.35rem;
+    padding: 0.15rem 0.7rem;
+    background: #fff;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
   }
   ul.cv-rows .cv-date {
     position: static;
