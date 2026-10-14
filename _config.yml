@@ -325,6 +325,9 @@ defaults:
 
 sass:
   style: compressed
+  # Site partials live in assets/_sass so jekyll-cache-bust's bust_css_cache (which hashes
+  # assets/_sass) gives main.css a new ?v= whenever the site's styles change.
+  sass_dir: assets/_sass
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
