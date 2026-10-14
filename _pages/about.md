@@ -5,13 +5,7 @@ permalink: /
 subtitle: Researcher, Data Science Team · Research Institute of Environmental Health and Safety, EH R&amp;C Co. · Incheon, Korea
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Data Science Team</p>
-    <p>EH R&amp;C Co.</p>
-    <p>Incheon, Korea</p>
+  image: prof_pic.jpg # shown next to the name (see _layouts/about.liquid)
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -31,20 +25,27 @@ My main project is a flux-based dynamic energy budget–toxicokinetic (DEB-TK) f
 
 Before joining EH R&C, I received my M.S. in Applied Chemistry (computational chemistry) from the University of Seoul with Prof. Rakwoo Chang, where I worked on large language models for chemistry (in-context learning and LoRA fine-tuning for molecular property prediction) and on molecular dynamics of membranes and enzymes, in collaboration with groups at Yonsei University, UNIST, and Chung-Ang University. I also hold a B.S. in Applied Chemistry and Artificial Intelligence from the University of Seoul, and spent the summer of 2024 as a visiting researcher with Prof. Wonpil Im at Lehigh University.
 
+<!-- In the lists marked {: .cv-rows}, a cv-date span is pushed to the right
+     and a cv-sub span becomes a smaller grey line underneath. -->
+
 ## education
 
-- **M.S. in Applied Chemistry** (Computational Chemistry), University of Seoul, Sep. 2024 – Feb. 2026<br>
-  Advisor: Prof. Rakwoo Chang · Thesis: _Applications of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5
-- **B.S. in Applied Chemistry and Artificial Intelligence** (double major, cum laude), University of Seoul, Mar. 2021 – Aug. 2024<br>
-  Early graduation · Outstanding Graduate Award, College of Natural Sciences
-- **B.S. coursework in Mathematics** (in progress), National Institute for Lifelong Education, Jan. 2025 – present
+{: .cv-rows}
+
+- **M.S. in Applied Chemistry** (Computational Chemistry), University of Seoul <span class="cv-date">Sep. 2024 – Feb. 2026</span>
+  <span class="cv-sub">Advisor: Prof. Rakwoo Chang · Thesis: _Applications of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5</span>
+- **B.S. in Applied Chemistry and Artificial Intelligence** (double major, cum laude), University of Seoul <span class="cv-date">Mar. 2021 – Aug. 2024</span>
+  <span class="cv-sub">Early graduation · Outstanding Graduate Award, College of Natural Sciences</span>
+- **B.S. coursework in Mathematics** (in progress), National Institute for Lifelong Education <span class="cv-date">Jan. 2025 – present</span>
 
 ## experience
 
-- **Researcher**, Data Science Team, Research Institute of Environmental Health and Safety, EH R&C Co., Incheon, Jan. 2026 – present
-- **Researcher**, Computational Molecular Modeling Laboratory (Prof. Rakwoo Chang), University of Seoul, Jun. 2021 – Feb. 2026
-- **Visiting Researcher**, Department of Bioengineering (Prof. Wonpil Im), Lehigh University, Bethlehem, PA, USA, Jun. – Aug. 2024
-- **Research Intern**, Molcube Corporation, Jul. 2023 – Feb. 2024
+{: .cv-rows}
+
+- **Researcher**, Data Science Team, Research Institute of Environmental Health and Safety, EH R&C Co., Incheon <span class="cv-date">Jan. 2026 – present</span>
+- **Researcher**, Computational Molecular Modeling Laboratory (Prof. Rakwoo Chang), University of Seoul <span class="cv-date">Jun. 2021 – Feb. 2026</span>
+- **Visiting Researcher**, Department of Bioengineering (Prof. Wonpil Im), Lehigh University, Bethlehem, PA, USA <span class="cv-date">Jun. – Aug. 2024</span>
+- **Research Intern**, Molcube Corporation <span class="cv-date">Jul. 2023 – Feb. 2024</span>
 
 ## research interests
 
@@ -55,12 +56,14 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 
 ## honors and awards
 
-- Best Poster Award, Korean Society of Environmental Health Spring Meeting, 2026
-- Outstanding Paper Award, President of the University of Seoul (_J. Comput. Chem._ paper), 2026
-- Best Poster Award, System Chemistry Global Leading Research Center Winter Symposium, 2025
-- Best Poster Award, Korean Society of Environmental Toxicology & Chemistry Fall Meeting, 2024
-- Outstanding Graduate Award, College of Natural Sciences, University of Seoul, 2024
-- Academic Excellence Award, every semester, University of Seoul, 2022 – 2024
+{: .cv-rows}
+
+- Best Poster Award, Korean Society of Environmental Health Spring Meeting <span class="cv-date">2026</span>
+- Outstanding Paper Award, President of the University of Seoul (_J. Comput. Chem._ paper) <span class="cv-date">2026</span>
+- Best Poster Award, System Chemistry Global Leading Research Center Winter Symposium <span class="cv-date">2025</span>
+- Best Poster Award, Korean Society of Environmental Toxicology & Chemistry Fall Meeting <span class="cv-date">2024</span>
+- Outstanding Graduate Award, College of Natural Sciences, University of Seoul <span class="cv-date">2024</span>
+- Academic Excellence Award, every semester, University of Seoul <span class="cv-date">2022 – 2024</span>
 
 A full list, including scholarships and conference presentations, is in the [CV]({{ '/cv/' | relative_url }}).
 
