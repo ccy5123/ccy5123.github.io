@@ -87,22 +87,22 @@ A full list, including scholarships and conference presentations, is in the [CV]
 
 - Erdős number: 5 (Rakwoo Chang → Angela Violi → Abram Magner → Tomasz Łuczak → Paul Erdős); also 5 via Kyungwoo Song → Yixuan Li → Serge Belongie → Fan Chung → Paul Erdős.
 
-<details>
-  <summary>Papers behind each link</summary>
-  <p><em>Via Rakwoo Chang</em></p>
-  <ol>
-    <li>Joe – Chang: Evaluating in-context learning in large language models for molecular property regression, <em>J. Comput. Chem.</em> (2026). <a href="https://doi.org/10.1002/jcc.70308">DOI</a></li>
-    <li>Chang – Violi: Insights into the effect of combustion-generated carbon nanoparticles on biological membranes, <em>J. Phys. Chem. B</em> (2006). <a href="https://doi.org/10.1021/jp0565148">DOI</a></li>
-    <li>Violi – Magner: A deep learning architecture for metabolic pathway prediction, <em>Bioinformatics</em> 36(8) (2020; retracted and replaced in 2024 with the same authors).</li>
-    <li>Magner – Łuczak: Asymmetry and structural information in preferential attachment graphs. <a href="https://arxiv.org/abs/1607.04102">arXiv:1607.04102</a></li>
-    <li>Łuczak – Erdős: Large subgraphs of minimal density or degree, <em>J. Combin. Math. Combin. Comput.</em> 22 (1996).</li>
-  </ol>
-  <p><em>Via Kyungwoo Song</em></p>
-  <ol>
-    <li>Joe – Song: the same <em>J. Comput. Chem.</em> paper (2026).</li>
-    <li>Song – Li: DaWin: training-free dynamic weight interpolation for robust adaptation, ICLR (2025). <a href="https://arxiv.org/abs/2410.03782">arXiv:2410.03782</a></li>
-    <li>Li – Belongie: Stacked generative adversarial networks, CVPR (2017).</li>
-    <li>Belongie – Chung: Spectral partitioning with indefinite kernels using the Nyström extension, ECCV (2002).</li>
-    <li>Chung – Erdős: several joint papers.</li>
-  </ol>
-</details>
+  <details>
+    <summary>Papers behind each link</summary>
+    <p><em>Via Rakwoo Chang</em></p>
+    <ol>
+      <li>Joe – Chang: Evaluating in-context learning in large language models for molecular property regression, <em>J. Comput. Chem.</em> (<strong>2026</strong>). <a href="https://doi.org/10.1002/jcc.70308">DOI</a></li>
+      <li>Chang – Violi: Insights into the effect of combustion-generated carbon nanoparticles on biological membranes, <em>J. Phys. Chem. B</em> (<strong>2006</strong>). <a href="https://doi.org/10.1021/jp0565148">DOI</a></li>
+      <li>Violi – Magner: A deep learning architecture for metabolic pathway prediction, <em>Bioinformatics</em> 36(8) (<strong>2020</strong>; retracted and replaced in <strong>2024</strong> with the same authors).</li>
+      <li>Magner – Łuczak: Asymmetry and structural information in preferential attachment graphs, <em>arXiv</em>. <a href="https://arxiv.org/abs/1607.04102">arXiv:1607.04102</a></li>
+      <li>Łuczak – Erdős: Large subgraphs of minimal density or degree, <em>J. Combin. Math. Combin. Comput.</em> 22 (<strong>1996</strong>).</li>
+    </ol>
+    <p><em>Via Kyungwoo Song</em></p>
+    <ol>
+      <li>Joe – Song: the same <em>J. Comput. Chem.</em> paper (<strong>2026</strong>).</li>
+      <li>Song – Li: DaWin: training-free dynamic weight interpolation for robust adaptation, <em>ICLR</em> (<strong>2025</strong>). <a href="https://arxiv.org/abs/2410.03782">arXiv:2410.03782</a></li>
+      <li>Li – Belongie: Stacked generative adversarial networks, <em>CVPR</em> (<strong>2017</strong>).</li>
+      <li>Belongie – Chung: Spectral partitioning with indefinite kernels using the Nyström extension, <em>ECCV</em> (<strong>2002</strong>).</li>
+      <li>Chung – Erdős: several joint papers.</li>
+    </ol>
+  </details>

@@ -39,3 +39,5 @@ nav_order: 1
 {% bibliography --file presentations %}
 
 </div>
+
+<p class="footnote-legend"><sup>*</sup> Corresponding author</p>

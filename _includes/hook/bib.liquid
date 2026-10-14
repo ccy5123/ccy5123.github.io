@@ -13,13 +13,17 @@
 {%- if entry.eventtitle and entry.eventtitle != '' -%}
   {%- assign hook_event = entry.eventtitle | regex_replace: '^[Tt]he ', '' -%}
   {%- assign hook_months = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec' | split: ',' -%}
-  {%- assign hook_when = entry.year -%}
+  {%- comment -%} The year is bold, like the year on journal entries. {%- endcomment -%}
+  {%- assign hook_when = '' -%}
+  {%- if entry.year and entry.year != '' -%}
+    {%- assign hook_when = '<strong>' | append: entry.year | append: '</strong>' -%}
+  {%- endif -%}
   {%- if entry.eventdate and entry.eventdate != '' -%}
     {%- assign hook_date = entry.eventdate | split: '/' | first | split: '-' -%}
-    {%- assign hook_when = hook_date[0] -%}
+    {%- assign hook_when = '<strong>' | append: hook_date[0] | append: '</strong>' -%}
     {%- if hook_date.size > 1 -%}
       {%- assign hook_month_index = hook_date[1] | plus: 0 | minus: 1 -%}
-      {%- assign hook_when = hook_months[hook_month_index] | append: ' ' | append: hook_date[0] -%}
+      {%- assign hook_when = hook_months[hook_month_index] | append: ' ' | append: hook_when -%}
     {%- endif -%}
   {%- endif -%}
   {%- assign hook_kind = '' -%}
