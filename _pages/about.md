@@ -23,7 +23,7 @@ I am a researcher in the Data Science Team at the Research Institute of Environm
 
 My main project is a flux-based dynamic energy budget–toxicokinetic (DEB-TK) framework for fish bioaccumulation, which describes uptake at exchange organs such as gills and gut in terms of membrane permeability and couples it to growth. I also develop mechanistic uptake models for PFAS in fish and paddy rice, and test how bioaccumulation screening tools perform in regulatory assessments.
 
-Before joining EH R&C, I received my M.S. in Applied Chemistry (computational chemistry) from the University of Seoul with Prof. Rakwoo Chang, where I worked on large language models for chemistry (in-context learning and LoRA fine-tuning for molecular property prediction) and on molecular dynamics of membranes and enzymes, in collaboration with groups at Yonsei University, UNIST, and Chung-Ang University. I also hold a B.S. in Applied Chemistry and Artificial Intelligence from the University of Seoul, and spent the summer of 2024 as a visiting researcher with Prof. Wonpil Im at Lehigh University.
+Before joining EH R&C, I received my M.S. in Applied Chemistry (computational chemistry) from the University of Seoul with Prof. Rakwoo Chang, where I worked on large language models for chemistry (in-context learning and LoRA fine-tuning for molecular property prediction) and on molecular dynamics of membranes and enzymes, in collaboration with groups at Yonsei University, UNIST, and Chung-Ang University. I also hold a B.S. in Applied Chemistry and a B.Eng. in Artificial Intelligence (double major) from the University of Seoul, and spent the summer of 2024 as a visiting researcher with Prof. Wonpil Im at Lehigh University.
 
 <!-- In the lists marked {: .cv-rows}, a cv-date span is pushed to the right
      and a cv-sub span becomes a smaller grey line underneath. -->
@@ -33,8 +33,8 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 {: .cv-rows}
 
 - **M.S. in Applied Chemistry** (Computational Chemistry), University of Seoul <span class="cv-date">Sep. 2024 – Feb. 2026</span>
-  <span class="cv-sub">Advisor: Prof. Rakwoo Chang · Thesis: _Applications of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5</span>
-- **B.S. in Applied Chemistry and Artificial Intelligence** (double major, cum laude), University of Seoul <span class="cv-date">Mar. 2021 – Aug. 2024</span>
+  <span class="cv-sub">Advisor: Prof. Rakwoo Chang · Thesis: _Application of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5</span>
+- **B.S. in Applied Chemistry; B.Eng. in Artificial Intelligence** (double major, cum laude), University of Seoul <span class="cv-date">Mar. 2021 – Aug. 2024</span>
   <span class="cv-sub">1st in the Department of Applied Chemistry; 2nd-highest cumulative GPA in the College of Natural Sciences (August 2024 graduates) · Early graduation · Outstanding Graduate Award, College of Natural Sciences</span>
 - **B.S. coursework in Mathematics** (in progress), National Institute for Lifelong Education <span class="cv-date">Jan. 2025 – present</span>
 
@@ -63,7 +63,7 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - Best Poster Award, System Chemistry Global Leading Research Center Winter Symposium <span class="cv-date">2025</span>
 - Best Poster Award, Korean Society of Environmental Toxicology & Chemistry Fall Meeting <span class="cv-date">2024</span>
 - Outstanding Graduate Award, College of Natural Sciences, University of Seoul <span class="cv-date">2024</span>
-- Academic Excellence Award, every semester, University of Seoul <span class="cv-date">2022 – 2024</span>
+- Academic Excellence Award, six consecutive semesters, University of Seoul <span class="cv-date">Fall 2021 – Spring 2024</span>
   <span class="cv-sub">Awarded each semester to the student with the highest GPA in each class year and department</span>
 
 ## certificates and licenses
