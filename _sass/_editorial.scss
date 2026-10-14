@@ -39,6 +39,11 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
+// the theme renders <strong> at normal weight; Markdown **bold** should look bold
+.post strong,
+.post b {
+  font-weight: 700;
+}
 
 // ---------- navigation ----------
 #navbar {
