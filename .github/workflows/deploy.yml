@@ -95,7 +95,7 @@ jobs:
         # committed counts unchanged.
         continue-on-error: true
         run: |
-          pip install scholarly pyyaml
+          pip install scholarly pyyaml "bibtexparser<2"  # scholarly still imports the 1.x API
           python3 bin/update_scholar_citations.py
       - name: List public GitHub repos 📚
         # /software/ shows every public repo of the site owner, most recently pushed first.
