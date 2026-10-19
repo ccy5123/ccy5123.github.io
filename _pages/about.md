@@ -36,7 +36,7 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
   <span class="cv-sub">Advisor: Prof. Rakwoo Chang · Thesis: _Application of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5</span>
 - **B.S. in Applied Chemistry; B.E. in Artificial Intelligence** (double major, cum laude), University of Seoul <span class="cv-date">Mar. 2021 – Aug. 2024</span>
   <span class="cv-sub">1st in the Department of Applied Chemistry; 2nd-highest cumulative GPA in the College of Natural Sciences (August 2024 graduates) · Early graduation</span>
-- **B.S. coursework in Mathematics** (in progress), National Institute for Lifelong Education <span class="cv-date">Jan. 2025 – present</span>
+- **B.S. in Mathematics**, National Institute for Lifelong Education (NILE) <span class="cv-date">Jan. 2025 – Dec. 2026 (expected)</span>
 
 ## experience
 
@@ -53,6 +53,8 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - Chemical risk assessment and regulatory bioaccumulation screening
 - Large language models for chemistry (in-context learning, LoRA fine-tuning)
 - Molecular dynamics of membranes and enzymes; enhanced sampling
+- Self-driving laboratories (SDL)
+- Chemical reaction networks
 
 ## honors and awards
 

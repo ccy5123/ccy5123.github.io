@@ -6,6 +6,8 @@
 %                               {1=highlight; 2=corresponding}
 %   keywords = {preprint}       listed under Preprints (CV and website; the section
 %                               only appears when such an entry exists)
+%   keywords = {inprep}         listed under Manuscripts in Preparation (same rule);
+%                               use @unpublished with the target in `note`
 %   preprint = {DOI}            website only: "Preprint" button on a published paper
 %                               (once a preprint is published, drop its entry and
 %                               move its DOI here)
@@ -14,6 +16,15 @@
 %   award, award_name           website only: award button and its text
 %                               (see docs/CUSTOMIZE.md)
 % Keep entries newest first: the CV and the website print them in file order.
+
+@unpublished{Joe2026Silent,
+  author       = {Joe, Chan Young},
+  author+an    = {1=highlight},
+  title        = {Silent but deadly? {Physics} says seldom, memory says mostly},
+  note         = {Manuscript in preparation; to be posted on ChemRxiv},
+  year         = {2026},
+  keywords     = {inprep},
+}
 
 @article{Lee2026ETC,
   author       = {Lee, Jong-Hyeon and Joe, Chan Young},
