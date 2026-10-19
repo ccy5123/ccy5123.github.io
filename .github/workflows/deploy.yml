@@ -89,6 +89,14 @@ jobs:
           cache: "npm"
       - name: Install JS deps 📦
         run: npm ci
+      - name: Update Google Scholar citations 📈
+        # Refreshes _data/citations.yml for the Scholar badges on each build (the daily
+        # schedule included). Scholar sometimes blocks CI runners; the build then uses the
+        # committed counts unchanged.
+        continue-on-error: true
+        run: |
+          pip install scholarly pyyaml
+          python3 bin/update_scholar_citations.py
       - name: List public GitHub repos 📚
         # /software/ shows every public repo of the site owner, most recently pushed first.
         # Regenerated on each build, so the committed _data/repositories.yml is only a fallback.
