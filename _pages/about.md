@@ -61,7 +61,7 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 {: .cv-rows}
 
 - **Database of biotransformation rate constants, membrane permeability, and assimilation efficiency for machine-learning model development** <span class="cv-date">Dec. 2025</span>
-  <span class="cv-sub">Database producer's right, Korea Copyright Commission, Reg. No. D-2025-000238 · Right holder: University of Seoul Industry–Academic Cooperation Foundation · Built with Hyunsu Sim in the BAF project</span>
+  <span class="cv-sub">Database producer's right, Korea Copyright Commission, Reg. No. D-2025-000238 · Right holder: University of Seoul Industry–Academic Cooperation Foundation · Built with Hyeonsu Sim in the bioaccumulation and human-exposure prediction project with EH R&C</span>
 
 ## honors and awards
 
