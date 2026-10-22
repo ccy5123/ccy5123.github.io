@@ -56,6 +56,13 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 - Self-driving laboratories (SDL)
 - Chemical reaction networks
 
+## intellectual property
+
+{: .cv-rows}
+
+- **Database of biotransformation rate constants, membrane permeability, and assimilation efficiency for machine-learning model development** <span class="cv-date">Dec. 2025</span>
+  <span class="cv-sub">Database producer's right, Korea Copyright Commission, Reg. No. D-2025-000238 · Right holder: University of Seoul Industry–Academic Cooperation Foundation · Built with Hyunsu Sim in the BAF project</span>
+
 ## honors and awards
 
 {: .cv-rows}
