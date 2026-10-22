@@ -92,8 +92,9 @@ jobs:
       - name: Update Google Scholar citations 📈
         # Refreshes _data/citations.yml for the Scholar badges on each build (the daily
         # schedule included). Scholar sometimes blocks CI runners; the build then uses the
-        # committed counts unchanged.
+        # committed counts unchanged. When blocked, scholarly retries for ~8 minutes, so cap it.
         continue-on-error: true
+        timeout-minutes: 2
         run: |
           pip install scholarly pyyaml "bibtexparser<2"  # scholarly still imports the 1.x API
           python3 bin/update_scholar_citations.py
