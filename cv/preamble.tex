@@ -43,9 +43,10 @@
     \step[fieldset=keywords, fieldvalue={,}, appendstrict]%
     \step[fieldset=keywords, fieldvalue=selected, append]}%
 }}
-\defbibfilter{publications}{not keyword=presentation and not keyword=preprint and not keyword=inprep}
+\defbibfilter{publications}{not keyword=presentation and not keyword=preprint and not keyword=inprep and not keyword=dataset}
 \defbibfilter{preprints}{keyword=preprint}
 \defbibfilter{inprep}{keyword=inprep}
+\defbibfilter{datasets}{keyword=dataset}
 \defbibfilter{presentations}{keyword=presentation}
 \defbibfilter{selectedpublications}{not keyword=presentation and keyword=selected}
 \defbibfilter{selectedpresentations}{keyword=presentation and keyword=selected}

@@ -5,7 +5,8 @@
   - authors flagged "corresponding" in the entry's biblatex `author+an` field
     (e.g. author+an = {1=highlight; 2=corresponding}) get a superscript *;
   - the year is bold (the journal is already italic), as in the ACS-style CV;
-  - a `preprint` field (DOI) adds a "Preprint" button next to DOI.
+  - a `preprint` field (DOI) adds a "Preprint" button next to DOI;
+  - @dataset / @software entries show their publisher (e.g. Zenodo) and version.
 {% endcomment %}
 {%- assign corresponding_positions = ',' -%}
 {%- assign author_annotation = entry['author+an'] | default: '' -%}
@@ -193,6 +194,8 @@
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+    {% elsif entry.type == 'dataset' or entry.type == 'software' %}
+      {% capture entrytype %}<em>{{ entry.publisher }}</em>{% if entry.version %}, version {{ entry.version }}{% endif %}{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}

@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Journal articles, manuscripts in preparation, and conference presentations, most recent first.
+description: Journal articles, manuscripts in preparation, datasets, and conference presentations, most recent first.
 nav: true
 nav_order: 1
 ---
@@ -20,7 +20,7 @@ nav_order: 1
 
 <div class="publications">
 
-{% bibliography --query @*[keywords!=preprint, keywords!=inprep] %}
+{% bibliography --query @*[keywords!=preprint, keywords!=inprep, keywords!=dataset] %}
 
 </div>
 
@@ -47,6 +47,20 @@ nav_order: 1
 <div class="publications">
 
 {% bibliography --query @*[keywords=preprint] %}
+
+</div>
+
+{% endif %}
+
+{% capture dataset_count %}{% bibliography_count --query @*[keywords=dataset] %}{% endcapture %}
+{% assign dataset_count = dataset_count | strip | plus: 0 %}
+{% if dataset_count > 0 %}
+
+## datasets
+
+<div class="publications">
+
+{% bibliography --query @*[keywords=dataset] %}
 
 </div>
 

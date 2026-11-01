@@ -8,6 +8,8 @@
 %                               only appears when such an entry exists)
 %   keywords = {inprep}         listed under Manuscripts in Preparation (same rule);
 %                               use @unpublished with the target in `note`
+%   keywords = {dataset}        listed under Datasets (use @dataset with publisher,
+%                               version, doi; `code` adds a Code button on the website)
 %   preprint = {DOI}            website only: "Preprint" button on a published paper
 %                               (once a preprint is published, drop its entry and
 %                               move its DOI here)
@@ -18,6 +20,18 @@
 %   award, award_name           website only: award button and its text
 %                               (see docs/CUSTOMIZE.md)
 % Keep entries newest first: the CV and the website print them in file order.
+
+@dataset{Joe2026SDLData,
+  author       = {Joe, Chan Young},
+  author+an    = {1=highlight},
+  title        = {sdl-workflows: hardware workflows of closed-loop self-driving laboratories},
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  year         = {2026},
+  doi          = {10.5281/zenodo.23857126},
+  code         = {https://github.com/ccy5123/sdl-workflows},
+  keywords     = {dataset},
+}
 
 @unpublished{Joe2026SDL,
   author       = {Joe, Chan Young},
