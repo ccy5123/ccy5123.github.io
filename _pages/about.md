@@ -19,11 +19,13 @@ latest_posts:
   enabled: false
 ---
 
-I am a researcher in the Data Science Team at the Research Institute of Environmental Health and Safety (EH R&C Co.) in Incheon, Korea. I build mechanistic models of how chemicals enter and accumulate in living organisms, and use them to support chemical risk assessment.
+I build models that predict how molecules behave, and I want to use them to decide which experiment to run next. My background is in machine learning and computational chemistry, and I am working toward self-driving laboratories, in which prediction and experiment close the loop. I am currently a researcher in the Data Science Team at the Research Institute of Environmental Health and Safety, EH R&C Co., in Incheon, Korea.
 
-My main project is a flux-based dynamic energy budget–toxicokinetic (DEB-TK) framework for fish bioaccumulation, which describes uptake at exchange organs such as gills and gut in terms of membrane permeability and couples it to growth. I also develop mechanistic uptake models for PFAS in fish and paddy rice, and test how bioaccumulation screening tools perform in regulatory assessments.
+For my M.S. in Applied Chemistry at the University of Seoul, with Prof. Rakwoo Chang, I studied large language models for molecular property prediction through in-context learning and fine-tuning. On 56 transformed regression tasks designed to block shortcuts, the models lost to conventional machine learning once memorized cues were removed, and statistics of each task predicted which approach would do better (_Journal of Computational Chemistry_, 2026). I also built models for membrane permeability, biotransformation rate and assimilation efficiency, comparing machine learning, graph neural networks and retrieval-augmented language models across chemical classes such as PFAS, siloxanes and biocides. Alongside this, I ran molecular dynamics simulations of membranes and enzymes, including a summer with Prof. Wonpil Im at Lehigh University.
 
-Before joining EH R&C, I received my M.S. in Applied Chemistry (computational chemistry) from the University of Seoul with Prof. Rakwoo Chang, where I worked on large language models for chemistry (in-context learning and LoRA fine-tuning for molecular property prediction) and on molecular dynamics of membranes and enzymes, in collaboration with groups at Yonsei University, UNIST, and Chung-Ang University. I also hold a B.S. in Applied Chemistry and a B.E. in Artificial Intelligence (double major) from the University of Seoul, and spent the summer of 2024 as a visiting researcher with Prof. Wonpil Im at Lehigh University.
+At EH R&C I apply these tools to a mechanistic problem: a flux-based dynamic energy budget–toxicokinetic model of how fish take up and eliminate chemicals (_Environmental Toxicology and Chemistry_, 2026). Its key inputs, membrane permeability and metabolic rates, are the same quantities my M.S. models predict.
+
+In my own time, I work on self-driving laboratories. I built a step-level database of 279 closed-loop platforms described in 237 papers, released with an interactive explorer, to ask what these records can predict about a new platform. I am also interested in chemical reaction networks, in particular multidimensional reaction-path exploration for chemistry under non-ambient temperature and pressure. I plan to apply to PhD programs in AI for chemistry and self-driving laboratories.
 
 <!-- In the lists marked {: .cv-rows}, a cv-date span is pushed to the right
      and a cv-sub span becomes a smaller grey line underneath. -->
@@ -49,12 +51,11 @@ Before joining EH R&C, I received my M.S. in Applied Chemistry (computational ch
 
 ## research interests
 
-- Mechanistic toxicokinetics and bioaccumulation modeling (DEB-TK, PFAS uptake in fish and rice)
-- Chemical risk assessment and regulatory bioaccumulation screening
-- Large language models for chemistry (in-context learning, LoRA fine-tuning)
+- Machine learning and large language models for chemistry
+- Self-driving laboratories (SDL): experiment planning, Bayesian optimization, active learning
 - Molecular dynamics of membranes and enzymes; enhanced sampling
-- Self-driving laboratories (SDL)
-- Chemical reaction networks
+- Chemical reaction networks: multidimensional reaction-path exploration under non-ambient conditions
+- Mechanistic toxicokinetics and bioaccumulation modeling
 
 ## intellectual property
 
