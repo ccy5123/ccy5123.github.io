@@ -70,7 +70,7 @@ In my own time, I work on self-driving laboratories. I built a step-level databa
 
 - Best Poster Award, Korean Society of Environmental Health Spring Meeting <span class="cv-date">2026</span>
 - Outstanding Paper Award, President of the University of Seoul (_J. Comput. Chem._ paper) <span class="cv-date">2026</span>
-- Best Poster Award, System Chemistry Global Leading Research Center Winter Symposium <span class="cv-date">2025</span>
+- Best Poster Award, Winter Workshop of the Global Science Research Center for Systems Chemistry <span class="cv-date">2025</span>
 - Best Poster Award, Korean Society of Environmental Health and Toxicology Fall Meeting <span class="cv-date">2024</span>
 - President's Award, graduation with honors (cum laude), University of Seoul <span class="cv-date">2024</span>
 - Academic Excellence Award, every semester, University of Seoul <span class="cv-date">2021 – 2024</span>
