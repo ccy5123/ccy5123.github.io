@@ -10,6 +10,9 @@
 %                               use @unpublished with the target in `note`
 %   keywords = {dataset}        listed under Datasets (use @dataset with publisher,
 %                               version, doi; `code` adds a Code button on the website)
+%   keywords = {thesis}         website only: listed under Theses (use @mastersthesis or
+%                               @phdthesis with school; `html` links the full text).
+%                               The CV names the thesis under Education instead.
 %   preprint = {DOI}            website only: "Preprint" button on a published paper
 %                               (once a preprint is published, drop its entry and
 %                               move its DOI here)
@@ -85,4 +88,15 @@
   abbr         = {JCC},
   selected     = {true},
   bibtex_show  = {true},
+}
+
+@mastersthesis{Joe2026MS,
+  author       = {Joe, Chan Young},
+  title        = {Applications of artificial intelligence for solving chemical problems},
+  school       = {University of Seoul},
+  year         = {2026},
+  month        = feb,
+  note         = {In Korean; advisor: Prof. Rakwoo Chang},
+  html         = {http://www.dcollection.net/handler/uos/000000036947},
+  keywords     = {thesis},
 }

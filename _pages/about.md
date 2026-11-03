@@ -35,7 +35,7 @@ In my own time, I work on self-driving laboratories. I built a step-level databa
 {: .cv-rows}
 
 - **M.S. in Applied Chemistry** (Computational Chemistry), University of Seoul <span class="cv-date">Sep. 2024 – Feb. 2026</span>
-  <span class="cv-sub">Advisor: Prof. Rakwoo Chang · Thesis: _Application of Artificial Intelligence for Solving Chemical Problems_ · GPA 4.46/4.5</span>
+  <span class="cv-sub">Advisor: Prof. Rakwoo Chang · Thesis: [_Applications of Artificial Intelligence for Solving Chemical Problems_](http://www.dcollection.net/handler/uos/000000036947) (in Korean) · GPA 4.46/4.5</span>
 - **B.S. in Applied Chemistry; B.E. in Artificial Intelligence** (double major, cum laude), University of Seoul <span class="cv-date">Mar. 2021 – Aug. 2024</span>
   <span class="cv-sub">1st in the Department of Applied Chemistry; 2nd-highest cumulative GPA in the College of Natural Sciences (August 2024 graduates) · Early graduation</span>
 - **B.S. in Mathematics**, National Institute for Lifelong Education (NILE) <span class="cv-date">Jan. 2025 – Dec. 2026 (expected)</span>

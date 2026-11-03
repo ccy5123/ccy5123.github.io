@@ -193,7 +193,7 @@
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+      {% capture entrytype %}{% if entry.type == 'mastersthesis' %}M.S. thesis, {% elsif entry.type == 'phdthesis' %}Ph.D. thesis, {% endif %}<em>{{ entry.school }}</em>{% endcapture %}
     {% elsif entry.type == 'dataset' or entry.type == 'software' %}
       {% capture entrytype %}<em>{{ entry.publisher }}</em>{% if entry.version %}, version {{ entry.version }}{% endif %}{% endcapture %}
     {% else %}
