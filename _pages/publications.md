@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Journal articles, manuscripts in preparation, datasets, theses, and conference presentations, most recent first.
+description: Journal articles, preprints, datasets, theses, and conference presentations, most recent first.
 nav: true
 nav_order: 1
 ---
