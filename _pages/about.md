@@ -75,6 +75,12 @@ In my own time, I work on self-driving laboratories. I built a step-level databa
 - President's Award, graduation with honors (cum laude), University of Seoul <span class="cv-date">2024</span>
 - Academic Excellence Award, every semester, University of Seoul <span class="cv-date">2021 – 2024</span>
 
+## peer review
+
+{: .cv-rows}
+
+- Reviewer, _Reaction Chemistry & Engineering_ (Royal Society of Chemistry) <span class="cv-date">2026</span>
+
 ## certificates and licenses
 
 {: .cv-rows}
