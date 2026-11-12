@@ -80,6 +80,7 @@ In my own time, I work on self-driving laboratories. I built a step-level databa
 {: .cv-rows}
 
 - Reviewer, _Reaction Chemistry & Engineering_ (Royal Society of Chemistry) <span class="cv-date">2026</span>
+  <span class="cv-sub">Verified record: [Web of Science](https://www.webofscience.com/wos/author/record/AEN-8923-2022)</span>
 
 ## certificates and licenses
 
