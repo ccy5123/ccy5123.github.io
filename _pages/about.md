@@ -88,6 +88,7 @@ In my own time, I work on self-driving laboratories. I built a step-level databa
 
 - **Chemical Substance Safety Management Cooperation Course**, Korea Environmental Conservation Institute (KECI) <span class="cv-date">Feb. 2026</span>
   <span class="cv-sub">Certificate of Completion · Track: Hazardous Substance Testing · Funded by the Ministry of Climate, Energy and Environment</span>
+- **Certified Investment Manager**, Korea Financial Investment Association (KOFIA) <span class="cv-date">Nov. 2026</span>
 - **Amateur Radio Operator License**, 1st Class
 - **Unmanned Power Flight Vehicle (Drone) Operator Certificate**, 4th Class
 - **Hunting License**, 1st Class (shotgun and airgun)
